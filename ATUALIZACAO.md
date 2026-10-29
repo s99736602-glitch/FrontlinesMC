@@ -14,3 +14,8 @@ No primeiro reinício, cargos principais Support/Suporte/Mod passam a Membro, e 
 Testes das regras: `node --test test/permissions.test.js`.
 
 Verificado em uma cópia isolada com sessões de teste por cargo, acessos diretos às operações administrativas, proteção contra sessão administrativa antiga e menu aberto/recolhido nas larguras 1280, 970 e 390. Não instalado nem verificado no servidor original.
+
+## Cadastro e cargo Criador
+- O nome de usuário informado no cadastro é o nome exibido no site, preservando maiúsculas/minúsculas (exceto `Azrae`, padronizado exatamente assim).
+- O nome de usuário é único sem diferenciar maiúsculas de minúsculas; o login continua aceitando qualquer combinação de caixa.
+- A conta `Azrae` recebe automaticamente o cargo `Criador` no cadastro e contas existentes com esse nome são atualizadas na inicialização do servidor.

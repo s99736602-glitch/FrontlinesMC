@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 112" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1013"/>
+      <stop offset=".5" stop-color="#151A19"/>
+      <stop offset="1" stop-color="#0A0F12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 68 -165 0 320 56)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9B45B" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#D9B45B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#E3C777" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h640v112H0z"/>
+  <path fill="url(#glow)" d="M0 0h640v112H0z"/>
+  <path fill="url(#grid)" d="M0 0h640v112H0z"/>
+  <g transform="translate(320 56)" stroke="#D9B45B" stroke-linecap="round" stroke-linejoin="round">
+    <circle r="15" stroke-opacity=".36"/>
+    <circle r="7" stroke-opacity=".72"/>
+    <path d="M0-23v10M0 13v10M-23 0h10M13 0h10" stroke-width="1.4"/>
+    <path d="m0-9 3 9-3 9-3-9 3-9Z" fill="#D9B45B" fill-opacity=".9" stroke-width="1.1"/>
+    <path d="M-33 0h5m56 0h5M0-33v5m0 56v5" stroke-opacity=".45"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#11191C"/><stop offset=".52" stop-color="#1D211E"/><stop offset="1" stop-color="#0A0F12"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 205 -330 0 480 195)" gradientUnits="userSpaceOnUse"><stop stop-color="#D8AE4F" stop-opacity=".28"/><stop offset="1" stop-color="#D8AE4F" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gold" x1="330" y1="70" x2="650" y2="370" gradientUnits="userSpaceOnUse"><stop stop-color="#F7D77D"/><stop offset=".48" stop-color="#D5A93D"/><stop offset="1" stop-color="#8C6424"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0v36" stroke="#F5D16B" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="960" height="420" rx="22" fill="url(#bg)"/><rect width="960" height="420" rx="22" fill="url(#glow)"/><rect width="960" height="420" rx="22" fill="url(#grid)"/>
+  <circle cx="480" cy="190" r="126" stroke="url(#gold)" stroke-width="3"/><circle cx="480" cy="190" r="109" stroke="#F4D479" stroke-opacity=".38"/>
+  <path d="m480 78 28 48 57-10-10 57 48 28-48 28 10 57-57-10-28 48-28-48-57 10 10-57-48-28 48-28-10-57 57 10 28-48Z" fill="url(#gold)"/>
+  <path d="M480 126c-38 0-69 31-69 69s31 69 69 69 69-31 69-69-31-69-69-69Z" fill="#122127" stroke="#F5D677" stroke-width="3"/>
+  <path d="M451 208c13-27 19-47 29-64 10 17 16 37 29 64-13-8-21-12-29-12s-16 4-29 12Z" fill="url(#gold)"/><path d="M453 216h54l-27 18-27-18Z" fill="#F6D774"/>
+  <text x="480" y="337" text-anchor="middle" fill="#F3D071" font-family="Arial,sans-serif" font-size="44" font-weight="800" letter-spacing="10">VIP</text>
+  <text x="480" y="374" text-anchor="middle" fill="#B8A36C" font-family="Arial,sans-serif" font-size="12" letter-spacing="5">FRONTLINE MC · ACESSO ESPECIAL</text>
+</svg>

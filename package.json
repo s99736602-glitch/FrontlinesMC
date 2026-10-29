@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22.5.0" },
-  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
-  "dependencies": { "express": "^5.1.0" }
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cloudinary": "^2.7.0"
+  }
 }
