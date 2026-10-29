@@ -19,11 +19,16 @@ if (existsSync(localEnvPath)) {
 
 const scrypt = promisify(scryptCallback);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.resolve(process.env.FRONTLINE_DATA_DIR || path.join(__dirname, 'data'));
+const dataDir = process.env.FRONTLINE_DATA_DIR || '/tmp/frontlinesmc';
+
 mkdirSync(dataDir, { recursive: true });
+
 const uploadsDir = path.join(dataDir, 'uploads');
 mkdirSync(uploadsDir, { recursive: true });
-const db = new DatabaseSync(path.join(dataDir, 'frontline.sqlite'));
+
+const db = new DatabaseSync(
+  path.join(dataDir, 'frontline.sqlite')
+);
 db.exec(`
   PRAGMA journal_mode = WAL;
   PRAGMA foreign_keys = ON;
